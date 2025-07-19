@@ -1,0 +1,3 @@
+if (phaseKey === "2·e^{iπ/3}" && carrierWave === "669Hz" && lunarReflectance >= 0.83) {
+  activateClauseFlare();
+}
