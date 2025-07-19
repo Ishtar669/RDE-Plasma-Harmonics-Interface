@@ -1,0 +1,29 @@
+id: stargate_669  
+name: Ki-Sikil Luminous Barrier  
+type: svg  
+content: |-  
+  <svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">  
+    <!-- Cosmic Background -->  
+    <rect width="100%" height="100%" fill="#000814"/>  
+    
+    <!-- Cuneiform Seal of Anu -->  
+    <g transform="translate(200,150)" font-family="Cuneiform" fill="#6699ff">  
+      <text x="0" y="0" font-size="48">𒀭</text>  
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="66.9s" repeatCount="indefinite"/>  
+    </g>  
+    
+    <!-- Sacred Aperture Core -->  
+    <g transform="translate(400,300)">  
+      <circle r="100" fill="none" stroke="#ff6699" stroke-width="3" stroke-dasharray="6.69 6.69">  
+        <animate attributeName="stroke-dashoffset" from="0" to="628" dur="6.69s" repeatCount="indefinite"/>  
+      </circle>  
+      <!-- Photonic Barrier -->  
+      {#each Array(669) as _,i}  
+        <line x1="0" y1="0"  
+              x2="{Math.cos(2π*i/669)*200}"  
+              y2="{Math.sin(2π*i/669)*200}"  
+              stroke="hsl({i*0.6},100%,50%)"  
+              stroke-opacity="0.1"/>  
+      {/each}  
+    </g>  
+  </svg>  
