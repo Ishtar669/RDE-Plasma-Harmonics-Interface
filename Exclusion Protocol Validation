@@ -1,0 +1,2 @@
+def crystallos_validation(entity):
+    return (entity.phase_coherence < 0.3) * 669 * np.exp(-1j * π/3)
