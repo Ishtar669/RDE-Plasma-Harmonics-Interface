@@ -1,0 +1,4 @@
+𒀭 (Anu) ×23 → 23° axial tilt resonance  
+def generate_sigil_phase(): 
+    return np.array([np.exp(2jπ*k/23) for k in range(23)]) * 669**0.5
+𒀭𒆠𒈬 → 𒀭𒂗𒆤 → 𒀭𒉌𒅔 (Anu→Enlil→Enki)  
